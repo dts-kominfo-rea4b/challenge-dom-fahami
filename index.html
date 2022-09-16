@@ -12,8 +12,14 @@
       display: inline-block;
     }
 
-    span {
+    header span {
+      font-size: 24px;
+      font-weight: bold;
       background-color: aqua;
+    }
+
+    header {
+      margin-bottom: 2em;
     }
 
     ul {
@@ -29,11 +35,11 @@
 <body>
   <div id="app">
     <!-- TODO: Buatlah sebuah header dengan id todo-title -->
-    <h1 id="todo-title">
+    <header id="todo-title">
       <span>To-Do List</span>
-    </h1>
+    </header>
     <!-- TODO: Buatlah sebuah subtitle dengan id todo-subtitle -->
-    <p id="todo-subtitle">~Today I need to~</p>
+    <p id="todo-subtitle">~ Today I need to ~</p>
     <!-- Section: input -->
     <!-- TODO: Buatlah sebuah input bertipe text dengan id todo-input -->
     <input type="text" name="inputTodo" id="todo-input" />
